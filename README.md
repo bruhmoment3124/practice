@@ -1,2 +1,2 @@
-# Practice-C
-All my C practices
+# Practice-Programming
+All my programming practices
