@@ -9,10 +9,10 @@ var
 begin
 	for i := -3 to 1 do
 	begin
-		arr[i] := i; (* assign numbers to array -3 to 1 *)
+		arr[i+3] := i; (* assign numbers to array -3 to 1 *)
  	
-		if arr[i] < 0 then (* only print if they are negative *)
-			writeln(arr[i]);
+		if arr[i+3] < 0 then (* only print if they are negative *)
+			writeln(arr[i+3]);
 	end;
 	readln();
 end.
