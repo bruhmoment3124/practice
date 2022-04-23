@@ -1,5 +1,7 @@
 program main;
 
+{$mode ISO}
+
 var
 	letter: char;
 

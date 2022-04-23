@@ -1,8 +1,10 @@
 program main;
 
+{$mode ISO}
+
 var
 	i, k: integer;
-	arr: array [-3..1] of integer;
+	arr: array [1..5] of integer;
 
 begin
 	for i := -3 to 1 do
